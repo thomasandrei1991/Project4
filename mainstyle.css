@@ -8,10 +8,15 @@ body{
     background-color: white;
 }
 .logo{
-    font-size: 24px;
-    color: #fff;
-    font-weight: bold;
+    height: 10px;
+    width: 10px;
 }
+img{
+    height: 40px;
+    width: 40px;
+}
+
+/* Nav section */
 nav {
     display: flex;
     justify-content: space-between;
@@ -26,7 +31,10 @@ nav ul {
     gap: 20px;
     list-style: none;
 }
-
+nav h2 {
+    color: white;
+    margin-right: auto;
+}
 nav ul li a {
     text-decoration: none;
     color: white;
