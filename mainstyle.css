@@ -4,17 +4,36 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-body{
-    background-color: white;
-}
+
 .logo{
     height: 10px;
     width: 10px;
+}
+body{
+    background-color: bisque;
 }
 img{
     height: 40px;
     width: 40px;
 }
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+section{
+    margin: 50px;
+    text-align: center;
+    color: darkorange;
+}
+header img {
+    height: 250px;
+    width: 250px;
+    border-style: none;
+    border-radius: 15px;
+}
+
 
 /* Nav section */
 nav {
@@ -22,7 +41,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: orangered;
+    background: darkorange;
     position: sticky;
     top: 0;
 }
@@ -43,4 +62,9 @@ nav ul li a {
 }
 nav ul li a:hover {
     color: gray;
+}
+
+
+#h2{
+    margin-left: 10px;
 }
