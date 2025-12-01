@@ -9,6 +9,12 @@
     height: 10px;
     width: 10px;
 }
+hr{
+    border: 3px solid orangered;
+    border-radius: 5px;
+    margin: 20px 0;
+    margin-top: 50px;
+}
 body{
     background-color: bisque;
 }
@@ -20,12 +26,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 section{
     margin: 50px;
     text-align: center;
-    color: darkorange;
+    color: orangered;
 }
 header img {
     height: 250px;
@@ -37,13 +43,16 @@ header img {
 
 /* Nav section */
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: darkorange;
-    position: sticky;
-    top: 0;
+    background: orangered;
+    z-index: 999;
 }
 nav ul {
     display: flex;
@@ -67,4 +76,9 @@ nav ul li a:hover {
 
 #h2{
     margin-left: 10px;
+}
+#about{
+    margin-top: 100px;
+    text-align: center;
+    color: orangered;
 }
